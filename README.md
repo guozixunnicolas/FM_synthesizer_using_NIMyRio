@@ -12,4 +12,4 @@ host_wifi.vi : to detect which key is pressed on the key dial. Transform it to f
 
 server.vi : to play back sound according to instrument option, volume, and frequency received.<br />
 
-synthesizer/synth_subvi_rt.vi : to build sound samples from various instrument based on this formula: y(t) = a(t) sin(2pi*fc*t + i(t)*sin(2pi*fm*t)) <br />
+synthesizer/synth_subvi_rt.vi : to build sound samples from various instruments based on this formula: y(t) = a(t) sin(2pi*fc*t + i(t)*sin(2pi*fm*t)) <br />
