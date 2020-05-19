@@ -5,7 +5,7 @@ I have created an NI MyRio FM synthesizer using Labview. I haven’t used any ot
 ## Overall structure
 The MyRio and the key dial communicates with the host computer via shared variable. Here variable to be shared is the frequency to be played. 
 
-##How to get started
+## How to get started
 It would be hard to download the repository and run it on your PC directly due to the nature of Labview. But you could take all the VI files as the reference to build your synthesizer. <br />
 
 host_wifi.vi : to detect which key is pressed on the key dial. Transform it to frequency value and share it to the host PC. <br />
