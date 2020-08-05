@@ -2,6 +2,10 @@
 
 I have created an NI MyRio FM synthesizer using Labview. I haven’t used any other external library/MIDI instrument.  Instead, I’m just sticking to this formula: y(t) = a(t) sin(2pi*fc*t + i(t)*sin(2pi*fm*t)) from Dr J Chowning’s research.  The instrument options are: bell, drum, clarinet, basson and brass. You can switch to different instruments from the case structure.
 
+## Demo video
+
+Please find the demo video[here](https://youtu.be/PObi5csF6K0)
+
 ## Overall structure
 The MyRio and the key dial communicates with the host computer via shared variable. Here variable to be shared is the frequency to be played. 
 
