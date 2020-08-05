@@ -4,7 +4,7 @@ I have created an NI MyRio FM synthesizer using Labview. I haven’t used any ot
 
 ## Demo video
 
-Please find the demo video[here](https://youtu.be/PObi5csF6K0)
+Please find the demo video [here](https://youtu.be/PObi5csF6K0)
 
 ## Overall structure
 The MyRio and the key dial communicates with the host computer via shared variable. Here variable to be shared is the frequency to be played. 
